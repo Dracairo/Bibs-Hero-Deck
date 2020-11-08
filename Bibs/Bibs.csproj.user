@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Users\Dracario\Pictures\Sentinels of Multiverse Cards\Perali Mods-main\WorkshopSample-main\MyMod\bin\Debug\</ReferencePath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,439 @@
+﻿{
+    "name": "Bibs the Bard",
+    "kind": "Hero",
+    "expansionIdentifier": "Workshopping",
+    "initialCardIdentifiers": [
+        "BibsCharacter"
+    ],
+    "cards": [
+        {
+            "identifier": "BibsCharacter",
+            "count": 1,
+            "title": "Bibs the Bard",
+            "body": "Bardic Inspiration",
+            "backgroundColor": "ccc88a",
+            "foilBackgroundColor": "ccc88a",
+            "hitpointsColor": "f49797",
+            "character": true,
+            "powers": [
+                "Disard a card. One player may play a card or draw a card."
+            ],
+            "icons": [
+                "HasPower",
+                "Disard",
+                "PlayCardNow",
+                "DrawCardnow"
+            ],
+            "hitpoints": 25,
+            "nemesisIdentifiers": [
+                "DnD"
+            ],
+            "incapacitatedAbilities": [
+                "One player may draw 3 cards. If they do, they must discard 1 card.",
+                "One hero may deal 1 target 4 melee damage.",
+                "Choose a target. Reduce damage dealt by that target by 2 until the end of the villain's turn."
+            ],
+            "flippedIcons": [
+                "UsePowerNow",
+                "DrawCardNow",
+                "ReduceDamageDealt"
+            ],
+            "openingLines": {
+                "default": "Holy moly who the heck is this person!?",
+                "OblivAeonFrontPageCharacter": "With the power of the fourth wall behind me, we'll take down this Darkseid wannabe!"
+            },
+            "complexity": 2
+        },
+        {
+            "identifier": "PokingStick",
+            "count": 1,
+            "title": "The Poking Stick Plus One!",
+            "keywords": [
+                "equipment",
+                "limited"
+            ],
+            "body": "Increase melee damage dealt by {Bibs} by 1.",
+            "powers": [
+                "{Bibs} deals 1 target 2 melee damage."
+            ],
+            "icons": [
+                "IncreaseDamageMelee",
+                "HasPower",
+                "DealDamageMelee"
+            ],
+            "flavorText": "Stabby stab! Stabby stab! Poking people--with a tab!"
+        },
+        {
+            "identifier": "Plotstaff",
+            "count": 1,
+            "title": "The Plot Staff",
+            "keywords": [
+                "equipment",
+                "limited"
+            ],
+            "body": "The first time Bibs deals damage each turn, activate the {Flair} text of a card in play.",
+
+            "powers": [
+                "Reveal the top card of your deck. If it is a Cantrip or Spellslot card, put it into play."
+            ],
+            "icons": [
+                "HasPower",
+                "Reveal"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "This magical piece of 2x4 can cast sleep without magic!!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey of Concussions #13"
+        },
+        {
+            "identifier": "TapYeezy",
+            "count": 1,
+            "title": "Tap Yeezys",
+            "keywords": [
+                "equipment",
+                "limited"
+            ],
+            "body": "At the start of your turn, you may discard a card. If you do, activate a {Flair} text.",
+
+            "powers": [
+                "Reveal the top 3 cards of your deck. Replace them in any order."
+            ],
+            "icons": [
+                "ActivateText",
+                "Reveal"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Look, swear on your {BR} Yeezys, if we gon' fight, we gon' fight."
+                }
+            ],
+            "flavorReference": "Bibs, The Journey to the BreadBank #03"
+        },
+        {
+            "identifier": "BagHolding",
+            "count": 4,
+            "title": "Bag of Holding",
+            "keywords": [
+                "one-shot"
+            ],
+            "body": [
+                "Search your deck or trash for an equipment card and put it into play.",
+                "If you searched your deck this way, shuffle it."
+            ],
+            "icons": [
+                "SearchCard",
+                "PlayCardNow"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Behold! The Bag of Gags!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey of Modern Comedy #20"
+        },
+        {
+            "identifier": "Firebolt",
+            "count": 3,
+            "title": "Fire Bolt",
+            "keywords": [
+                "ongoing",
+                "cantrip"
+            ],
+            "flair": "Bibs deals 1 target 2 fire damage.",
+
+            "powers": [
+                "Bibs deals 1 target 3 fire damage. Then, destroy this card"
+            ],
+            "icons": [
+                "DealDamageFire",
+                "SelfDestroy"
+            ],
+            "flavorText": "[b]HADOUKEN!!![/b]."
+        },
+        {
+            "identifier": "GreenFlameBlade",
+            "count": 3,
+            "title": "Green-Flame Blade",
+            "keywords": [
+                "ongoing",
+                "cantrip",
+                "limited"
+            ],
+            "flair": "Increase the next time Bibs deals fire damage by 2. If Bibs deals fire damage, destroy this card.",
+            "body": [
+                "Whenever Bibs deals melee damage to a target, Bibs also deals that target 1 fire damage."
+            ],
+            "icons": [
+                "DealDamageFire",
+                "UsePowerNow"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "I'm the dancer of the Borris Canyon!"
+                }
+            ],
+            "flavorReference": "Bibs, The Dark Souls of Journeys."
+        },
+        {
+            "identifier": "Light",
+            "count": 3,
+            "title": "Light",
+            "keywords": [
+                "ongoing",
+                "Cantrip"
+            ],
+            "flair": [
+                "Draw 3 cards, then destroy this card."
+            ],
+            "body": [
+                "At the end of your turn, reveal the top 3 cards of your deck.",
+                "Replace them in any order."
+            ],
+            "icons": [
+                "Reveal",
+                "EndOfTurnAction"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": " [b]FLASH![/b] AAAAAAAAAAAAAAAAAAAA---"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey of Gordan."
+        },
+        {
+            "identifier": "ViciousMockery",
+            "count": 3,
+            "title": "Vicious Mockery",
+            "keywords": [
+                "ongoing",
+                "cantrip"
+            ],
+            "flair": "Increase damage dealt by Hero targets by 1. At the start of your turn, destroy this card.",
+
+            "powers": [
+                "Bibs deals 1 target 1 psychic damage.",
+                "Reduce damage dealt by that target by 1."
+            ],
+            "icons": [
+                "ReduceDamageDealt",
+                "DealDamagePsychic"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Your mother was a Bidoof and your father smelled of Pinap berries!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey for the Python Grail. #22"
+        },
+        {
+            "identifier": "BattleRose",
+            "count": 1,
+            "title": "Battle Rose",
+            "keywords": [
+                "ongoing",
+                "Combat style"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Dancing around the battlefield poking, burning, and shouting about. Thats the way of a Battle Rose"
+                }
+            ],
+            "flavorReference": "The Wraith, Freedom Five #209",
+            "body": [
+                "At the start of your turn, increase the next time Bibs deals damage by 1.",
+                "The first time Bibs deals damage to a target each turn, increase the next time it takes damage by 1."
+            ],
+            "icons": [
+                "StartofTurn",
+                "IncreaseDamageDealt"
+            ]
+        },
+        {
+            "identifier": "SpellSlinger",
+            "count": 1,
+            "title": "Spell Slinger",
+            "keywords": [
+                "ongoing",
+                "combat style"
+            ],
+            "flavorText": "The art of a throwing books and scrolls at enemies is what it truly means to be a Spell Slinger.",
+            "body": [
+                "The first time you activate a (Flair) text each turn, you may draw a card.",
+                "Whenever a Cantrip card would be destroyed, shuffle it into your deck instead.."
+            ],
+            "icons": [
+                "shuffle",
+                "DrawCardNow"
+            ]
+        },
+        {
+            "identifier": "SwordDancer",
+            "count": 1,
+            "title": "Sword Dancer",
+            "keywords": [
+                "ongoing",
+                "combat style"
+            ],
+            "body": [
+                "Whenever you would activate (Flair) texts, Bibs may deal 1 target 2 melee damage instead.",
+                "You may use {The Poking Stick Plus One!}'s power twice per power phase."
+            ],
+            "icons": [
+                "DealDamageMelee",
+                "UsePowerExtra"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "[b]MOAR STABBIES[/b]!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey to Oh god she's running with scissors"
+        },
+        {
+            "identifier": "HealingWord",
+            "count": 3,
+            "title": "Healing Word",
+            "keywords": [
+                "ongoing",
+                "spellslot"
+            ],
+            "flair": "Up to 3 targets regain 1 HP.",
+            "powers": [
+                "One target regains up to 3 HP. Then, destroy this card."
+            ],
+            "icons": [
+                "HasPower",
+                "GainHP"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "The safety word is Heretics."
+                }
+            ],
+            "flavorReference": "Bibs, The Journey of 40k."
+        },
+        {
+            "identifier": "Silence",
+            "count": 2,
+            "title": "Silence",
+            "keywords": [
+                "ongoing",
+                "spellslot"
+            ],
+            "flair": "Discard 3 cards. Villain cards cannot be played until the end of the villain turn.",
+            "powers": [
+                "Destroy up to 2 ongoing cards. Then, destroy this card."
+            ],
+            "icons": [
+                "HasPower",
+                "Discard",
+                "DestroySelf",
+                "EndOfTurnAction"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Shut the [b]F***[/b] up!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey to Mindless Self Indulgence."
+        },
+        {
+            "identifier": "StormSphere",
+            "count": 2,
+            "title": "Storm Sphere",
+            "keywords": [
+                "ongoing",
+                "spellslot"
+            ],
+            "flair": "Bibs deals 1 target 3 lightning damage. Destroy, this card.",
+            "powers": [
+                "Discard 2 cards.",
+                "If you do, {Bibs} deals each target 1 lightning damage."
+            ],
+            "icons": [
+                "DestroySelf",
+                "DealDamageLightning",
+                "Disard"
+            ],
+            "flavorText": "I have nothing witty to say.",
+            "flavorReference": "Bibs"
+        },
+        {
+            "identifier": "SwordBurst",
+            "count": 3,
+            "title": "Sword Burst",
+            "keywords": [
+                "ongoing",
+                "Spellslot"
+            ],
+            "flair": "Bibs deals each villain target 1 melee damage.",
+            "powers": [
+                "Bibs deals up to 3 targets 2 melee damage. Then, destroy this card."
+            ],
+            "icons": [
+                "DealDamageMelee",
+                "DestroySelf"
+            ],
+            "flavorQuotes": [
+                {
+                    "identifier": "Bibs",
+                    "text": "Swords of Revealing Blight!"
+                }
+            ],
+            "flavorReference": "Bibs, The Journey of a Children's Card Game."
+        }
+    ],
+    "promoCards": [
+        {
+            "identifier": "BibsCharacter",
+            "promoIdentifier": "RedMageBibsCharacter",
+            "count": 1,
+            "title": "Bibs",
+            "promoTitle": "Bibs the Red Mage",
+            "shortPromoTitle": "Red Mage Bibs",
+            "body": "Adding a Little Flair!",
+            "backgroundColor": "fbf8f9",
+            "foilBackgroundColor": "FEFEFE",
+            "hitpointsColor": "C94742",
+            "character": true,
+            "powers": [
+                "Active a (Flair) text of a card. Then, destroy that card."
+            ],
+            "icons": [
+                "HasPower",
+                "Discard"
+            ],
+            "hitpoints": 23,
+            "nemesisIdentifiers": [
+                "DnD"
+            ],
+            "incapacitatedAbilities": [
+                "One Hero may use a Power.",
+                "One Player may draw a card.",
+                "Until the start of your next turn, increase damage dealt by heroes by 1."
+            ],
+            "flippedIcons": [
+                "UsePowerNow",
+                "DrawCardNow",
+                "IncreaseDamageDealt"
+            ],
+            "openingLines": {
+                "default": "Time to add a little flair to the fight!"
+
+            },
+            "complexity": 2
+        }
+    ]
+}
